@@ -110,7 +110,10 @@ public class Tp3 extends javax.swing.JFrame {
     }//GEN-LAST:event_IngresoUsuarioActionPerformed
 
     private void IngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IngresarActionPerformed
-        // TODO add your handling code here:
+        if (IngresoUsuario.getText()=="alumno@ulp.edu.ar") {
+            
+        } else {
+        }
     }//GEN-LAST:event_IngresarActionPerformed
 
     /**
