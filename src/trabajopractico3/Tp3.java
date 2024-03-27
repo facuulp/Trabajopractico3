@@ -27,7 +27,7 @@ public class Tp3 extends javax.swing.JFrame {
     private void initComponents() {
 
         IngresoUsuario = new javax.swing.JTextField();
-        Contraseña = new javax.swing.JTextField();
+        Contrasenia = new javax.swing.JTextField();
         Ingresar = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -75,7 +75,7 @@ public class Tp3 extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(IngresoUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(Contrasenia, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(369, 369, 369)
                         .addComponent(Ingresar))
@@ -95,7 +95,7 @@ public class Tp3 extends javax.swing.JFrame {
                     .addComponent(jLabel1))
                 .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Contrasenia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2))
                 .addGap(55, 55, 55)
                 .addComponent(Ingresar)
@@ -110,7 +110,7 @@ public class Tp3 extends javax.swing.JFrame {
     }//GEN-LAST:event_IngresoUsuarioActionPerformed
 
     private void IngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IngresarActionPerformed
-        if (IngresoUsuario.getText()=="alumno@ulp.edu.ar") {
+        if (IngresoUsuario.getText()=="alumno@ulp.edu.ar" && Contrasenia.getText()=="12345678") {
             
         } else {
         }
@@ -152,7 +152,7 @@ public class Tp3 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField Contraseña;
+    private javax.swing.JTextField Contrasenia;
     private javax.swing.JButton Ingresar;
     private javax.swing.JTextField IngresoUsuario;
     private javax.swing.JLabel jLabel1;
