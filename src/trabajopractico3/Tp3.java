@@ -4,6 +4,8 @@
  */
 package trabajopractico3;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Facundo
@@ -110,9 +112,16 @@ public class Tp3 extends javax.swing.JFrame {
     }//GEN-LAST:event_IngresoUsuarioActionPerformed
 
     private void IngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IngresarActionPerformed
-        if (IngresoUsuario.getText()=="alumno@ulp.edu.ar" && Contrasenia.getText()=="12345678") {
+        String Usuario=IngresoUsuario.getText();
+        String Contra=Contrasenia.getText();
+        
+        if ("alumno@ulp.edu.ar".equals(Usuario) && "12345678".equals(Contra) ) {
+            JOptionPane.showMessageDialog(this, "Usted ha ingresado correctamente");
+            return;
             
         } else {
+             JOptionPane.showMessageDialog(this, "Usted ha ingresado incorrectamente");
+             return;
         }
     }//GEN-LAST:event_IngresarActionPerformed
 
